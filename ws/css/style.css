@@ -1,0 +1,282 @@
+html, body{
+    height: 100%;
+}
+     
+body{
+    margin: 0px;
+    padding: 0px;
+    background: #ffffff;
+    font-family: 'Roboto';
+    font-size: 12pt;
+}
+         
+h1, h2, h3{
+    margin: 0;
+    padding: 0;
+    color: #404040;
+}
+     
+p, ol, ul{
+    margin-top: 0;
+}
+ 
+p {
+    line-height: 180%;
+}
+ 
+ol, ul{
+    padding: 0;
+    list-style: none;
+}
+     
+.container{   
+    /* Set width of container to
+        1200px and align center */
+    margin: 0px auto;
+    width: 1200px;
+}
+
+header{
+    overflow: hidden;
+    
+}
+
+#top-header{
+    text-align: center;
+    height: 80 px;
+}
+
+.logo{
+    float: left;
+    padding: none;
+    margin: none;
+    height: 80px;
+    width: 30%;
+}
+
+.logo img{
+    width: 80%;
+    float: left;
+    padding: 0px 0px;
+}
+
+.menu {
+    float: justify;
+    width: 100%;
+    height: 100%;
+    margin: none;
+}
+
+.menu ul{
+    text-align: center;
+    float: right;
+    margin: none;
+    background: #C0353E;
+    color: #FFFFFF;
+}
+
+.menu li{
+    display: inline-block;
+    padding: none;
+    margin: none;
+}
+
+.menu li a, .menu li span{
+    display: inline-block;
+    padding: 0.55em 1.5em;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 60px;
+    font-size:18px;
+}
+
+.menu li a{
+    color: #ffffff;
+}
+
+.menu li:hover a, .menu li span{
+    background: #FFFFFF;
+    color: #C0353E;
+    border-left: 1px solid #C0353E;
+    text-decoration: none;
+}
+
+#header-image-menu{
+    position: static;
+}
+
+#header-image-menu img{
+    margin: none;
+    padding: none;
+    opacity: 0.80;
+    margin-top: -15px;
+}
+
+#image-text{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    font-family:'Impact';
+    color: #ffffff;
+    /* transform: translate(-30%, -30%); */
+    text-align: center;
+    font-size: 140px;
+    text-shadow: 5px 3px #000000;
+}
+
+#header-image-menu a{
+    background-color: #C0353E; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 23px;
+    font-family: 'Impact';
+    position: absolute;
+    top: 68%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    width: 150px;
+    height: 30px;
+}
+
+#welcome{    
+    overflow: hidden;
+    width: 100%;
+    margin: 20px;
+    font-size: large;
+}
+
+#welcome .title{
+    margin-top: 20px;
+    padding: 20px;
+    text-align: left;
+    font-size: 40px;
+    margin-left: -20px;
+}
+
+#welcome ul{
+    text-align: left;
+    margin-top: -13px;
+    width: 50%; 
+    float: left;
+}
+
+#welcome #phone{
+    padding-top: 90px;
+}
+
+#welcome time{
+    width: 50%;
+    float: left;
+}
+
+#welcome p{
+    text-align: left;
+}
+
+#welcome #col1-info{
+    float: left;
+    width: 650px;
+    padding: 0px 40px 10px 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+#welcome #col2-info{
+    float: left;
+    width: 550px;
+    padding: 45px 40px 10px 40px;
+}
+
+
+#welcome map {
+    padding-bottom: 50%;
+    position: relative;
+}
+
+#welcome map iframe {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    float: left;
+}
+
+#food-gallery{
+    overflow: hidden;
+    margin: 5px;
+    width: 23%;
+    border: 1px solid #ccc;
+}
+
+#gallery-title{
+    margin-top: 20px;
+    padding: 20px;
+    text-align: left;
+    font-size: 40px;
+    margin-left: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#gallery{
+    margin-left: 40px;
+}
+
+#food-gallery img{
+    width: 400px;
+    height: 250px;
+    object-fit: cover;
+}
+
+#gallery #food-gallery{
+    display: inline-block;
+}
+
+#food-gallery #desc{
+    padding: 15px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #C0353E;
+    color:#FFFFFF;
+}
+
+#contact{
+    overflow: hidden;
+    padding: 3em 0em;
+    background: #C0353E;
+    text-align: center;
+    margin-top: 1em;
+}
+
+#row #col1, 
+#row #col2,
+#row #col3 {
+    float: left;
+    width: 410px;
+    padding: 10px 30px 10px 30px;
+    font-size: 18px;
+    color:#FFFFFF;
+}
+
+#row #icon{
+    display: block;
+    margin-bottom: 20px;
+    font-size: 3em;
+}
+
+#copyright
+{
+    overflow: hidden;
+    padding: 0em 0em;
+    border-top: 10px solid rgba(255, 255, 255, 0.08);
+    text-align: center;
+    background: #ffffff;
+}
